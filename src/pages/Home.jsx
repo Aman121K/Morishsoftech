@@ -4,7 +4,7 @@ import slider5 from "../asset/slider-5.jpg";
 import slider6 from "../asset/slider-6.jpg";
 
 const Home = () => {
-  const sliders = [slider4, slider5, slider6];
+  const sliders = [slider5, slider6];
   const [currentSlide, setCurrentSlide] = useState(0);
   const [autoplay, setAutoplay] = useState(true);
 
@@ -64,7 +64,7 @@ const Home = () => {
                 <span className="text-white">a digital future</span>
               </h1>
               <p className="text-lg md:text-xl mt-4 ">
-                Endive Media is one of the world’s top business consulting
+                Bus Technologies is one of the world’s top business consulting
                 firms. We help global leaders with their organization's most
                 critical issues & opportunities.
               </p>

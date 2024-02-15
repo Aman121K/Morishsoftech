@@ -13,7 +13,7 @@ const BlogCard = ({ date, title, description, imageUrl }) => {
           src={imageUrl}
           alt="Blog post illustration"
         />
-        <span className="absolute bottom-0 left-0 bg-green-200 px-2 py-1 text-xs md:text-sm font-semibold text-gray-700 ">
+        <span className="absolute bottom-0 left-0 bg-orange-200 px-2 py-1 text-xs md:text-sm font-semibold text-gray-700 ">
           {date}
         </span>
       </div>
@@ -24,7 +24,7 @@ const BlogCard = ({ date, title, description, imageUrl }) => {
       <div className="px-6 pt-4 pb-2">
         <NavLink
           to="#"
-          className="inline-block bg-blue-500 rounded-full px-3 py-1 text-xs md:text-sm font-semibold text-white mr-2 mb-2"
+          className="inline-block bg-orange-500 rounded-full px-3 py-1 text-xs md:text-sm font-semibold text-white mr-2 mb-2"
         >
           READ MORE
         </NavLink>

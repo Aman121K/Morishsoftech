@@ -8,7 +8,7 @@ const CoreValuesSection = () => {
         <img src={core} alt="Core Values" className="rounded-lg shadow-lg" />
       </div>
       <div className="md:w-1/2 mt-6 md:mt-0 md:pl-8">
-        <h2 className="text-4xl font-bold text-teal-600 mb-4">
+        <h2 className="text-4xl font-bold text-orange-600 mb-4">
           Our Core Values & Expertises
         </h2>
         <p className="text-gray-600 mb-6">
@@ -19,15 +19,15 @@ const CoreValuesSection = () => {
         </p>
         <div className="flex justify-start space-x-8">
           <div className="text-center">
-            <p className="text-3xl font-semibold text-teal-600">6+</p>
+            <p className="text-3xl font-semibold text-orange-600">6+</p>
             <p className="text-gray-600">Countries Serve</p>
           </div>
           <div className="text-center">
-            <p className="text-3xl font-semibold text-teal-600">110+</p>
+            <p className="text-3xl font-semibold text-orange-600">110+</p>
             <p className="text-gray-600">Clients Serve</p>
           </div>
           <div className="text-center">
-            <p className="text-3xl font-semibold text-teal-600">340+</p>
+            <p className="text-3xl font-semibold text-orange-600">340+</p>
             <p className="text-gray-600">Projects Completed</p>
           </div>
         </div>

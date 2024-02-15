@@ -38,10 +38,10 @@ const TrustedClients = () => {
 
 const BusinessPanel = ({ title, text, buttonText }) => {
   return (
-    <div className="bg-blue-100 p-8 text-center">
+    <div className="bg-orange-100 p-8 text-center">
       <h2 className="text-4xl font-bold mb-4">{title}</h2>
       <p className="mb-6">{text}</p>
-      <button className="bg-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-600 transition duration-300">
+      <button className="bg-orange-500 text-white font-bold py-2 px-4 rounded hover:bg-red-600 transition duration-300">
         {buttonText}
       </button>
     </div>

@@ -138,13 +138,13 @@ const Navbar = () => {
                   Company
                 </NavLink>
                 <ul className="dropdown-menu absolute hidden group-hover:block z-50 bg-white p-4 border rounded">
-                  <li title="Endive Media - A Web Development Company">
+                  <li title="Bus Technologies - A Web Development Company">
                     <NavLink to="/about">About Us</NavLink>
                   </li>
                   <li title="Web Development Mission and Vision">
                     <NavLink to="/mission-values">Mission & Values</NavLink>
                   </li>
-                  <li title="Why Choose Endive Media">
+                  <li title="Why Choose Bus Technologies">
                     <NavLink to="/choose-us">Why Choose Us</NavLink>
                   </li>
                 </ul>

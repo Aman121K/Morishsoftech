@@ -29,7 +29,7 @@ function ContactForm() {
           <h1 className="text-4xl font-bold text-left text-gray-800">
             Contact Us
           </h1>
-          <p className="text-xl font-bold text-teal-600 text-center mb-8">
+          <p className="text-xl font-bold text-orange-600 text-center mb-8">
             Get in touch with us
           </p>
           <div className="grid grid-cols-2 gap-8">
@@ -49,7 +49,7 @@ function ContactForm() {
                     value={name}
                     onChange={(e) => setName(e.target.value)}
                     required
-                    className="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-green-400"
+                    className="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-400"
                   />
                 </div>
                 <div className="mb-4">
@@ -66,7 +66,7 @@ function ContactForm() {
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     required
-                    className="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-green-400"
+                    className="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-400"
                   />
                 </div>
                 <div className="mb-4">
@@ -83,7 +83,7 @@ function ContactForm() {
                     value={phone}
                     onChange={(e) => setPhone(e.target.value)}
                     required
-                    className="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-green-400"
+                    className="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-400"
                   />
                 </div>
                 <div className="mb-4">
@@ -99,7 +99,7 @@ function ContactForm() {
                     name="company"
                     value={company}
                     onChange={(e) => setCompany(e.target.value)}
-                    className="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-green-400"
+                    className="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-400"
                   />
                 </div>
                 <div className="mb-4">
@@ -115,13 +115,13 @@ function ContactForm() {
                     value={message}
                     onChange={(e) => setMessage(e.target.value)}
                     rows="4"
-                    className="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-green-400"
+                    className="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-400"
                   ></textarea>
                 </div>
                 <div className="flex justify-center">
                   <button
                     type="submit"
-                    className="bg-green-500 text-white font-bold px-8 py-3 rounded-md hover:bg-green-600"
+                    className="bg-orange-500 text-white font-bold px-8 py-3 rounded-md hover:bg-black"
                   >
                     Submit
                   </button>
@@ -129,7 +129,7 @@ function ContactForm() {
               </form>
             </div>
             <div className="col-span-2 md:col-span-1">
-              <div className="bg-gray-200 p-6 rounded-md">
+              <div className="bg-orange-200 p-6 rounded-md">
                 <h2 className="text-xl font-bold text-gray-800 mb-4">
                   India Address :
                 </h2>
