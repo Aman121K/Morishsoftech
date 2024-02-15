@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Service = () => {
   return (
@@ -32,7 +33,7 @@ const Service = () => {
               providing them with the highest quality digital marketing
               services.
             </p>
-            <button className="btn btn-secondary mt-4">Read More</button>
+            <NavLink to='/mission-values' className="btn btn-secondary mt-4">Read More</NavLink>
           </div>
           <div className="text-center bg-gray-800 p-6 rounded-md">
             <h3 className="text-2xl font-bold mb-2">Why Choose Us</h3>
@@ -40,7 +41,7 @@ const Service = () => {
               We have a team of experienced professionals who are passionate
               about what they do.
             </p>
-            <button className="btn btn-secondary mt-4">Read More</button>
+            <NavLink to='/choose-us' className="btn btn-secondary mt-4">Read More</NavLink>
           </div>
           <div className="text-center bg-gray-800 p-6 rounded-md">
             <h3 className="text-2xl font-bold mb-2">Our Commitment</h3>
@@ -48,7 +49,7 @@ const Service = () => {
               We are committed to providing our clients with the best possible
               service.
             </p>
-            <button className="btn btn-secondary mt-4">Read More</button>
+            <NavLink to='' className="btn btn-secondary mt-4">Read More</NavLink>
           </div>
           <div className="text-center bg-gray-800 p-6 rounded-md">
             <h3 className="text-2xl font-bold mb-2">Our Expertise</h3>
@@ -56,7 +57,7 @@ const Service = () => {
               We have a wide range of expertise in all areas of digital
               marketing.
             </p>
-            <button className="btn btn-secondary mt-4">Read More</button>
+            <NavLink to='' className="btn btn-secondary mt-4">Read More</NavLink>
           </div>
         </div>
       </div>

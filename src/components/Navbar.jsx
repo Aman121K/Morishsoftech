@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import logo from "../asset/logo.svg";
+import { NavLink } from "react-router-dom";
+import logo from "../asset/logo.jpg";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -25,17 +26,18 @@ const Navbar = () => {
     >
       <div className="container mx-auto">
         <nav className="flex items-center justify-between p-4">
-          <a
+          <NavLink
             className="navbar-brand ml-10"
-            href="/"
+           to="/"
             title="Web Designing and Development"
           >
             <img
               src={logo}
               alt="Web Designing and Development Company"
-              style={{ maxWidth: "200px" }}
+              style={{ maxWidth: "80px" }}
             />
-          </a>
+            {/* <span>Buslala <br />Technologies</span> */}
+          </NavLink>
           <div
             className="hidden lg:flex flex-grow items-center"
             id="navbarSupportedContent"
@@ -44,106 +46,106 @@ const Navbar = () => {
               className={` font-bold flex space-x-4 ml-[50%] ${isScrolled ? "mt-4" : ""}`}
             >
               <li title="Home">
-                <a href="/">Home</a>
+                <NavLink to="/">Home</NavLink>
               </li>
               <li className="dropdown submenu relative group">
-                <a
+                <NavLink
                   className="dropdown-toggle"
                   data-toggle="dropdown"
-                  href="/"
+                 to="/"
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
                   title="Web Development Company"
                 >
                   Web Development
-                </a>
+                </NavLink>
                 <ul className="dropdown-menu absolute hidden group-hover:block z-50 bg-white p-4 border rounded">
                   <li title="Web Designing and Development Company">
-                    <a href="web-develo/">Web Design & Development</a>
+                    <NavLink to="/web-development">Web Design & Development</NavLink>
                   </li>
                   <li title="Ecommerce Website Development">
-                    <a href="ecommerce-sol/">E-commerce Solution</a>
+                    <NavLink to="/ecommerce">E-commerce Solution</NavLink>
                   </li>
                   <li title="App Development Company">
-                    <a href="app-develo/">App Development</a>
+                    <NavLink to="/appdevelopment">App Development</NavLink>
                   </li>
                   <li title="Web Application Portal Development">
-                    <a href="web-applic/">Web Application</a>
+                    <NavLink to="/webapplication">Web Application</NavLink>
                   </li>
                 </ul>
               </li>
               <li className="dropdown submenu relative group">
-                <a
+                <NavLink
                   className="dropdown-toggle"
                   data-toggle="dropdown"
-                  href="ser/"
+                 to="ser/"
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
                   title="Digital Marketing Agency"
                 >
                   Digital Marketing
-                </a>
+                </NavLink>
                 <ul className="dropdown-menu absolute hidden group-hover:block z-50 bg-white p-4 border rounded">
                   <li title="Search Engine Optimization SEO Service">
-                    <a href="search-engine-optimiz/">
+                    <NavLink to="/seo">
                       Search Engine Optimization (SEO)
-                    </a>
+                    </NavLink>
                   </li>
                   <li title="Social Media Optimization SMO Service">
-                    <a href="social-media-mark/">
+                    <NavLink to="/smm">
                       Social Media Marketing (SMM)
-                    </a>
+                    </NavLink>
                   </li>
                 </ul>
               </li>
               <li className="dropdown submenu relative group">
-                <a
+                <NavLink
                   className="dropdown-toggle"
                   data-toggle="dropdown"
-                  href="pro/"
+                 to="pro/"
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
                 >
                   Products
-                </a>
+                </NavLink>
                 <ul className="dropdown-menu absolute hidden group-hover:block z-50 bg-white p-4 border rounded">
                   <li title="School Management Software">
-                    <a href="school-manag/">School Management Application</a>
+                    <NavLink to="/school-management">School Management Application</NavLink>
                   </li>
                   <li title="Customer Relationship Management">
-                    <a href="crm-develo/">CRM Development</a>
+                    <NavLink to="crm-develo/">CRM Development</NavLink>
                   </li>
                   <li title="Billing and Invoicing Solution">
-                    <a href="invoicing-sol/">Invoicing Solution</a>
+                    <NavLink to="invoicing-sol/">Invoicing Solution</NavLink>
                   </li>
                   <li title="Hospital Management Software">
-                    <a href="hospital-manag/">Hospital Management Software</a>
+                    <NavLink to="hospital-manag/">Hospital Management Software</NavLink>
                   </li>
                 </ul>
               </li>
               <li className="dropdown submenu relative group">
-                <a
+                <NavLink
                   className="dropdown-toggle"
                   data-toggle="dropdown"
-                  href="co/"
+                 to="co/"
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
                 >
                   Company
-                </a>
+                </NavLink>
                 <ul className="dropdown-menu absolute hidden group-hover:block z-50 bg-white p-4 border rounded">
                   <li title="Endive Media - A Web Development Company">
-                    <a href="abo/">About Us</a>
+                    <NavLink to="/about">About Us</NavLink>
                   </li>
                   <li title="Web Development Mission and Vision">
-                    <a href="mission-and-v/">Mission & Values</a>
+                    <NavLink to="/mission-values">Mission & Values</NavLink>
                   </li>
                   <li title="Why Choose Endive Media">
-                    <a href="why-choo/">Why Choose Us</a>
+                    <NavLink to="/choose-us">Why Choose Us</NavLink>
                   </li>
                 </ul>
               </li>
@@ -151,9 +153,9 @@ const Navbar = () => {
             </ul>
             <ul className="flex ml-auto space-x-4">
               <li>
-                <a className="popup-with-zoom-anim" href="#test-search">
+                <NavLink className="popup-with-zoom-anim" to="#test-search">
                   <i className="icon icon-Search"></i>
-                </a>
+                </NavLink>
               </li>
             </ul>
           </div>

@@ -1,30 +1,32 @@
 import React from "react";
-import logo from "../asset/logo.svg";
+import { NavLink } from "react-router-dom";
+import logo from "../asset/logo.jpg";
 
 const Footer = () => {
   return (
     <footer className="bg-teal-600 text-white p-8">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
         <div className="flex flex-col space-y-4">
-          <a
+          <NavLink
             className="navbar-brand"
-            href="index.php"
+            to="/"
             title="Web Designing and Development"
           >
             <img
               src={logo}
               alt="Web Designing and Development Company"
-              style={{ maxWidth: "200px" }}
+              style={{ maxWidth: "80px" }}
             />
-          </a>
+            <p>Buslala <br />Technologies</p>
+          </NavLink>
           <p>
             SCF 45, Vyapar Sadan, Sector 14
             <br />
             Gurgaon, Haryana 122001.
           </p>
-          <a href="#!" className="text-teal-200 hover:text-white">
+          <NavLink to="#!" className="text-teal-200 hover:text-white">
             Talk to an expert
-          </a>
+          </NavLink>
           <p>+91-124-4118270</p>
         </div>
 
@@ -34,54 +36,54 @@ const Footer = () => {
           </h3>
           <ul className="grid grid-cols-2 gap-4">
             <li>
-              <a href="#!" className="hover:text-teal-200">
+              <NavLink to="/" className="hover:text-teal-200">
                 Home
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a href="#!" className="hover:text-teal-200">
+              <NavLink to="/about" className="hover:text-teal-200">
                 About Us
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a href="#!" className="hover:text-teal-200">
+              <NavLink to="/contact" className="hover:text-teal-200">
                 Reach Us
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a href="#!" className="hover:text-teal-200">
+              <NavLink to="#!" className="hover:text-teal-200">
                 Privacy Policy
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a href="#!" className="hover:text-teal-200">
+              <NavLink to="#!" className="hover:text-teal-200">
                 Term & Conditions
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a href="#!" className="hover:text-teal-200">
+              <NavLink to="/web-development" className="hover:text-teal-200">
                 Web Development
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a href="#!" className="hover:text-teal-200">
+              <NavLink to="#!" className="hover:text-teal-200">
                 CRM Development
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a href="#!" className="hover:text-teal-200">
+              <NavLink to="/school" className="hover:text-teal-200">
                 School Management
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a href="#!" className="hover:text-teal-200">
+              <NavLink to="/ecommerce" className="hover:text-teal-200">
                 Ecommerce Solution
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a href="#!" className="hover:text-teal-200">
+              <NavLink to="#!" className="hover:text-teal-200">
                 Hospital Management
-              </a>
+              </NavLink>
             </li>
           </ul>
         </div>
@@ -105,18 +107,18 @@ const Footer = () => {
           </form>
           <div className="flex justify-start space-x-4 mt-4">
             {/* Replace with actual social media icons */}
-            <a href="#!" className="hover:text-teal-200">
+            <NavLink to="#!" className="hover:text-teal-200">
               Facebook
-            </a>
-            <a href="#!" className="hover:text-teal-200">
+            </NavLink>
+            <NavLink to="#!" className="hover:text-teal-200">
               LinkedIn
-            </a>
-            <a href="#!" className="hover:text-teal-200">
+            </NavLink>
+            <NavLink to="#!" className="hover:text-teal-200">
               Twitter
-            </a>
-            <a href="#!" className="hover:text-teal-200">
+            </NavLink>
+            <NavLink to="#!" className="hover:text-teal-200">
               Google+
-            </a>
+            </NavLink>
           </div>
         </div>
       </div>
