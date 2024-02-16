@@ -7,7 +7,7 @@ import { NavLink } from "react-router-dom";
 const Blog = () => {
   return (
     <div className="container mx-auto p-4">
-      <div className="text-white text-4xl font-bold mb-4 bg-orange-400 p-4">
+      <div className="text-white text-4xl font-bold mb-4 bg-teal-500 p-4">
         Latest Blog
       </div>
       <div className="grid grid-cols-4 gap-4">
@@ -58,7 +58,7 @@ const Blog = () => {
             <div className="w-2/3">
               <div className="text-gray-700 text-xl font-medium mb-2">
                 <div className="text-gray-700 text-sm mb-2">28 July 2023</div>
-                Why Choose Bus Technologies as Your Website Designing Company in
+                Why Choose Endive Media as Your Website Designing Company in
                 Delhi?
               </div>
               <div className="text-gray-700 text-sm">
@@ -110,7 +110,7 @@ const Blog = () => {
 
         {/* Sidebar */}
         <div className="col-span-1">
-          <div className="bg-orange-400 p-4 rounded-lg shadow-lg mb-4">
+          <div className="bg-teal-500 p-4 rounded-lg shadow-lg mb-4">
             <div className="text-white text-xl font-bold mb-2">Categories</div>
             <div className="text-white text-sm space-y-2 flex flex-col">
               <NavLink to="#">Landing Page</NavLink>
@@ -119,7 +119,7 @@ const Blog = () => {
               <NavLink to="#">Travel</NavLink>
             </div>
           </div>
-          <div className="bg-orange-400 p-4 rounded-lg shadow-lg mb-4">
+          <div className="bg-teal-500 p-4 rounded-lg shadow-lg mb-4">
             <div className="text-white text-xl font-bold mb-2">Tags</div>
             <div className="text-white text-sm space-x-2">
               <NavLink to="#">Web</NavLink>

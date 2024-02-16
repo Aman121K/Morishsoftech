@@ -3,7 +3,7 @@ import React from "react";
 const Consultation = () => {
   return (
     <div className="flex flex-wrap bg-white">
-      <div className="p-6 text-white mb-10 mx-auto md:ml-16 lg:ml-32 xl:ml-[124px] bg-orange-400 md:w-1/3 lg:w-1/4">
+      <div className="p-6 text-white mb-10 mx-auto md:ml-16 lg:ml-32 xl:ml-[124px] bg-teal-500 md:w-1/3 lg:w-1/4">
         <h1 className="text-2xl font-bold">Need Consultation</h1>
         <p className="text-lg mt-4">
           Contact our customer support team if you have any further questions.

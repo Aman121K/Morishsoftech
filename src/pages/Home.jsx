@@ -4,7 +4,7 @@ import slider5 from "../asset/slider-5.jpg";
 import slider6 from "../asset/slider-6.jpg";
 
 const Home = () => {
-  const sliders = [slider5, slider6];
+  const sliders = [slider4, slider5, slider6];
   const [currentSlide, setCurrentSlide] = useState(0);
   const [autoplay, setAutoplay] = useState(true);
 
@@ -43,7 +43,7 @@ const Home = () => {
       <div className="video_boxes relative">
         <div className="container relative">
           <div
-            className="video_boxs relative bg-cover bg-center h-screen flex items-center justify-center"
+            className="video_boxs relative bg-cover bg-center h-[60vh] md:h-screen flex items-center justify-center  bg-opacity-75 "
             style={{ backgroundImage: `url(${sliders[currentSlide]})` }}
             onClick={() => setAutoplay(!autoplay)}
           >
@@ -53,18 +53,18 @@ const Home = () => {
             >
               {"<"}
             </button>
-            <div className="absolute bottom-0 ml-2 md:ml-20 left-2 md:left-12 right-2 md:right-15 p-4 text-center bg-opacity-30 backdrop-blur-md">
-              <h1 className="md:text-6xl text-4xl font-bold text-white">
+            <div className="absolute bottom-0 ml-2 md:ml-20 md:left-20 p-4 text-center bg-opacity-30 md:backdrop-blur-md">
+              <h1 className="md:text-6xl text-xl font-bold text-white">
                 Helping <br /> Businesses <br /> Every Day
               </h1>
             </div>
-            <div className="md:p-12 text-gray-800 md:mr-11 ">
-              <h1 className="text-2xl md:text-4xl font-bold ml-56">
+            <div className="md:p-12 text-gray-800 md:mr-11 md:mt-32">
+              <h1 className="text-xl md:text-4xl font-bold ml-28 md:ml-56">
                 Reinventing Companies for{" "}
                 <span className="text-white">a digital future</span>
               </h1>
-              <p className="text-lg md:text-xl mt-4 ">
-                Bus Technologies is one of the world’s top business consulting
+              <p className="ml-8 text-sm md:text-xl mt-4 text-white">
+                Endive Media is one of the world’s top business consulting
                 firms. We help global leaders with their organization's most
                 critical issues & opportunities.
               </p>

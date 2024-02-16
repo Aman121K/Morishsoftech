@@ -4,12 +4,12 @@ const Webapplication = () => {
   return (
     <>
       <div className="bg-white shadow-lg rounded-lg p-8 mb-10">
-        <h1 className="text-4xl font-bold text-left text-orange-600">
+        <h1 className="text-4xl font-bold text-left text-teal-600">
         Web App Development
         </h1>
       </div>
       <div className="flex flex-wrap bg-gray-100">
-        <div className="w-full lg:w-1/4 bg-orange-600 text-white p-8">
+        <div className="w-full lg:w-1/4 bg-teal-600 text-white p-8">
           <ul className="space-y-4">
             <li className="py-2 font-medium">Web Design & Development</li>
             <li className="py-2 font-medium">Ecommerce Solutions</li>
@@ -21,7 +21,7 @@ const Webapplication = () => {
         </div>
 
         <div className="w-full lg:w-3/4 bg-white p-8">
-          <h1 className="text-3xl font-bold text-orange-600 mb-6">
+          <h1 className="text-3xl font-bold text-teal-600 mb-6">
           Web App Development Service
           </h1>
           <p className="text-gray-600 leading-relaxed mb-8">
@@ -66,7 +66,7 @@ const Webapplication = () => {
               </p>
             </div>
           </div>
-          <h1 className="mt-10 text-3xl font-bold text-orange-600 mb-6">
+          <h1 className="mt-10 text-3xl font-bold text-teal-600 mb-6">
           Benefits
           </h1>
           <p className="text-gray-600 leading-relaxed mb-8">

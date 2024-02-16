@@ -4,9 +4,9 @@ import logo from "../asset/logo.jpg";
 
 const Footer = () => {
   return (
-    <footer className="bg-orange-600 text-white p-8">
+    <footer className="bg-teal-600 text-white p-8">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
-        <div className="flex flex-col space-y-4">
+        <div className="flex flex-col space-y-4 ">
           <NavLink
             className="navbar-brand"
             to="/"
@@ -100,7 +100,7 @@ const Footer = () => {
             />
             <button
               type="submit"
-              className="bg-orange-700 hover:bg-orange-800 text-white font-bold py-2 px-4 rounded"
+              className="bg-teal-700 hover:bg-teal-800 text-white font-bold py-2 px-4 rounded"
             >
               Subscribe
             </button>
@@ -123,7 +123,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="text-center text-sm mt-8">
-        © Copyright  Bus Technologies 2024. All rights reserved.
+        © Copyright Buslala Technologies 2024. All rights reserved.
       </div>
     </footer>
   );

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import { IoCall } from "react-icons/io5";
 
 const Top = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -19,15 +20,16 @@ const Top = () => {
 
   return (
     <div
-      className={`bg-orange-500 p-4 flex flex-col md:flex-row justify-between items-center ${
+      className={`bg-teal-500 p-4 flex flex-col md:flex-row justify-between items-center ${
         isScrolled ? "fixed top-0 w-full z-50" : "static"
       }`}
     >
-      <div className="text-white mb-4 md:mb-0 md:mr-4 ml-10">
-        Need any help? Email to expert: support@buslalatechnologies.ltd
-      </div>
-      <div className="text-white space-x-4 mr-10">
-        <Link to="/blog">BLOG</Link>
+      <div className="flex items-center justify-center text-white text-xs md:text-xl mb-4 md:mb-0 md:mr-4 md:ml-10 ml-5">
+  <IoCall className="mr-2" /> 
+  Need any help? Chat to expert: +91-124-411 8270
+</div>
+      <div className="text-white space-x-4 mr-10 ">
+        <NavLink to="/blog">BLOG</NavLink>
         <span className="hidden md:inline">|</span>
         <NavLink to="/contact">CONTACT US</NavLink>
         <span className="hidden md:inline">|</span>
