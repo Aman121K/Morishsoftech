@@ -125,7 +125,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="text-center text-sm mt-8">
-        © Copyright  Bus Technologies 2024. All rights reserved.
+        © Copyright  Buslala Technologies 2024. All rights reserved.
       </div>
     </footer>
   );

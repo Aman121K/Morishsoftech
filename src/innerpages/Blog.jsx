@@ -58,7 +58,7 @@ const Blog = () => {
             <div className="w-2/3">
               <div className="text-gray-700 text-xl font-medium mb-2">
                 <div className="text-gray-700 text-sm mb-2">28 July 2023</div>
-                Why Choose Bus Technologies as Your Website Designing Company in
+                Why Choose Buslala Technologies as Your Website Designing Company in
                 Delhi?
               </div>
               <div className="text-gray-700 text-sm">

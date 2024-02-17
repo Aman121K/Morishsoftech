@@ -64,7 +64,7 @@ const Home = () => {
                 <span className="text-white">a digital future</span>
               </h1>
               <p className="text-lg md:text-xl mt-4 ">
-                Bus Technologies is one of the world’s top business consulting
+                Buslala Technologies is one of the world’s top business consulting
                 firms. We help global leaders with their organization's most
                 critical issues & opportunities.
               </p>
