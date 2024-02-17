@@ -20,14 +20,16 @@ const Footer = () => {
             <p>Buslala <br />Technologies</p>
           </NavLink>
           <p>
-            SCF 45, Vyapar Sadan, Sector 14
+            RZF 535, Rajnagar-2,
+
             <br />
-            Gurgaon, Haryana 122001.
+            South West Delhi,
+            Delhi-110077
           </p>
           <NavLink to="#!" className="text-teal-200 hover:text-white">
-            Talk to an expert
+            {/* Talk to an expert */}
           </NavLink>
-          <p>+91-124-4118270</p>
+          {/* <p>+91-124-4118270</p> */}
         </div>
 
         <div>
