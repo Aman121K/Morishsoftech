@@ -27,7 +27,7 @@ const Top = () => {
         Need any help? Email to expert: support@buslalatechnologies.ltd
       </div>
       <div className="text-white space-x-4 mr-10">
-        <Link to="/blog">BLOG</Link>
+        <Link to="/blog">Digit Dairy</Link>
         <span className="hidden md:inline">|</span>
         <NavLink to="/contact">CONTACT US</NavLink>
         <span className="hidden md:inline">|</span>

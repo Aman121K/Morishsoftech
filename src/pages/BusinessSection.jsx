@@ -23,16 +23,17 @@ const LogoSlider = () => {
 
 const TrustedClients = () => {
   return (
-    <div className="bg-white p-8 text-center">
-      <h2 className="text-2xl font-bold mb-4">Trusted Clients</h2>
-      <p className="mb-6">
-        Leverage agile frameworks to provide a robust synopsis for high-level
-        overviews. Iterative approaches to corporate strategy foster
-      </p>
-      <div className="flex justify-center items-center mt-4">
-        <LogoSlider />
-      </div>
-    </div>
+    <></>
+    // <div className="bg-white p-8 text-center">
+    //   <h2 className="text-2xl font-bold mb-4">Trusted Clients</h2>
+    //   <p className="mb-6">
+    //     Leverage agile frameworks to provide a robust synopsis for high-level
+    //     overviews. Iterative approaches to corporate strategy foster
+    //   </p>
+    //   <div className="flex justify-center items-center mt-4">
+    //     {/* <LogoSlider /> */}
+    //   </div>
+    // </div>
   );
 };
 

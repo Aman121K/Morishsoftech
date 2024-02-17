@@ -123,7 +123,7 @@ function ContactForm() {
                     type="submit"
                     className="bg-orange-500 text-white font-bold px-8 py-3 rounded-md hover:bg-black"
                   >
-                    
+
                     Submit
                   </button>
                 </div>
@@ -136,13 +136,13 @@ function ContactForm() {
 
                 </h2>
                 <p className="text-gray-600 mb-2">
-                  SCF 45, Vipul Garden
+                  RZF 535, Rajnagar-2,
                   <br />
-                  Sector 48 Gurugram, Haryana 122018
+                  South West Delhi, Delhi-110077
                 </p>
-                <p className="text-gray-600 mb-2">Phone: +91 (124) 411 8979</p>
+                <p className="text-gray-600 mb-2"></p>
                 <p className="text-gray-600 mb-2">
-                  Email: info@entiremedia.com
+                 support@buslalatechnologies.ltd
                 </p>
               </div>
             </div>

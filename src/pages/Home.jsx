@@ -55,7 +55,7 @@ const Home = () => {
             </button>
             <div className="absolute bottom-0 ml-2 md:ml-20 left-2 md:left-12 right-2 md:right-15 p-4 text-center bg-opacity-30 backdrop-blur-md">
               <h1 className="md:text-6xl text-4xl font-bold text-white">
-                Helping <br /> Businesses <br /> Every Day
+                Making <br /> Business <br /> Easy
               </h1>
             </div>
             <div className="md:p-12 text-gray-800 md:mr-11 ">

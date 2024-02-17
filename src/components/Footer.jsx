@@ -17,7 +17,7 @@ const Footer = () => {
               alt="Web Designing and Development Company"
               style={{ maxWidth: "80px" }}
             />
-            <p>Buslala <br />Technologies</p>
+            <h4>Buslala Technologies</h4>
           </NavLink>
           <p>
             RZF 535, Rajnagar-2,
