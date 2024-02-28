@@ -7,114 +7,73 @@ import { NavLink } from "react-router-dom";
 const Blog = () => {
   return (
     <div className="container mx-auto p-4">
-      <div className="text-white text-4xl font-bold mb-4 bg-teal-500 p-4">
+      <div className="text-white text-4xl font-bold mb-4 bg-orange-500 p-4">
         Latest Blog
       </div>
-      <div className="grid grid-cols-4 gap-4">
-        <div className="col-span-3">
-          {/* Blog Post 1 */}
-          <div className="flex mb-4">
-            <div className="w-1/3 mr-4">
-              <div className="image-container relative overflow-hidden group">
-                <img
-                  src={img1}
-                  alt="blog1"
-                  className="w-full h-full transform transition-transform duration-300 group-hover:scale-105"
-                />
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div className="col-span-1 lg:col-span-3">
+          {/* Blog Posts */}
+          {[
+            {
+              id: 1,
+              image: img1,
+              title:
+                "Revolutionizing Online Retail: Ecommerce Website Design in Gurgaon",
+              date: "28 July 2023",
+              article:
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit ",
+            },
+            {
+              id: 2,
+              image: img2,
+              title:
+                "  Why Choose Buslala Technologies as Your Website Designing Company in Delhi",
+              date: "28 July 2023",
+              article:
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            },
+            {
+              id: 3,
+              image: img3,
+              title:
+                "Benefits of Hiring Professional Website Designing Company",
+              date: "28 July 2023",
+              article:
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            },
+          ].map((post) => (
+            <div key={post.id} className="flex mb-4">
+              <div className="w-full sm:w-1/3 mr-4">
+                <div className="image-container relative overflow-hidden group">
+                  <img
+                    src={post.image}
+                    alt={`blog${post.id}`}
+                    className="w-full h-full transform transition-transform duration-300 group-hover:scale-105"
+                  />
+                </div>
               </div>
-            </div>
-            <div className="w-2/3">
-              <div className="text-gray-700 text-xl font-medium mb-2">
-                <div className="text-gray-700 text-sm mb-2">28 July 2023</div>
-                Revolutionizing Online Retail: Ecommerce Website Design in
-                Gurgaon
-              </div>
-              <div className="text-gray-700 text-sm">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                quis lorem vitae nisi consequat varius. Quisque id lectus
-                sapien. Fusce quis leo quis augue aliquet tincidunt. Morbi
-                tincidunt, nisl quis consequat sagittis, justo lacus luctus
-                lorem, quis ultrices nisi lorem vitae nisi.
-                <div className="">
-                  <button className="text-black border border-solid border-white py-2 px-4 rounded bg-opacity-70 hover:bg-opacity-90 transition duration-300">
-                    Read More
-                  </button>
+              <div className="w-full sm:w-2/3">
+                <div className="text-gray-700 text-xs md:text-xl font-medium mb-2">
+                  <div className="text-gray-700 text-xs md:text-sm mb-2">
+                    {post.date}
+                  </div>
+                  {post.title}
+                </div>
+                <div className="text-gray-700 text-xs md:text-sm">
+                  {post.article}
+                  <div className="">
+                    <button className="text-black border border-solid border-white py-2 px-4 rounded bg-opacity-70 hover:bg-opacity-90 transition duration-300">
+                      Read More
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-
-          {/* Blog Post 2 */}
-          <div className="flex mb-4">
-            <div className="w-1/3 mr-4">
-              <div className="image-container relative overflow-hidden group">
-                <img
-                  src={img2}
-                  alt="blog2"
-                  className="w-full h-full transform transition-transform duration-300 group-hover:scale-105"
-                />
-              </div>
-            </div>
-            <div className="w-2/3">
-              <div className="text-gray-700 text-xl font-medium mb-2">
-                <div className="text-gray-700 text-sm mb-2">28 July 2023</div>
-<<<<<<< HEAD
-                Why Choose Endive Media as Your Website Designing Company in
-=======
-                Why Choose Buslala Technologies as Your Website Designing Company in
->>>>>>> 11b0fc1d16daeed4b57adf7e505a05bb69192a39
-                Delhi?
-              </div>
-              <div className="text-gray-700 text-sm">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                quis lorem vitae nisi consequat varius. Quisque id lectus
-                sapien. Fusce quis leo quis augue aliquet tincidunt. Morbi
-                tincidunt, nisl quis consequat sagittis, justo lacus luctus
-                lorem, quis ultrices nisi lorem vitae nisi.
-                <div className="">
-                  <button className="text-black border border-solid border-white py-2 px-4 rounded bg-opacity-70 hover:bg-opacity-90 transition duration-300">
-                    Read More
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Blog Post 3 */}
-          <div className="flex mb-4">
-            <div className="w-1/3 mr-4">
-              <div className="image-container relative overflow-hidden group">
-                <img
-                  src={img3}
-                  alt="blog3"
-                  className="w-full h-full transform transition-transform duration-300 group-hover:scale-105"
-                />
-              </div>
-            </div>
-            <div className="w-2/3">
-              <div className="text-gray-700 text-xl font-medium mb-2">
-                <div className="text-gray-700 text-sm mb-2">28 July 2023</div>
-                Benefits of Hiring Professional Website Designing Company
-              </div>
-              <div className="text-gray-700 text-sm">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                quis lorem vitae nisi consequat varius. Quisque id lectus
-                sapien. Fusce quis leo quis augue aliquet tincidunt. Morbi
-                tincidunt, nisl quis consequat sagittis, justo lacus luctus
-                lorem, quis ultrices nisi lorem vitae nisi.
-                <div className="">
-                  <button className="text-black border border-solid border-white py-2 px-4 rounded bg-opacity-70 hover:bg-opacity-90 transition duration-300">
-                    Read More
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
+          ))}
         </div>
 
-        {/* Sidebar */}
-        <div className="col-span-1">
-          <div className="bg-teal-500 p-4 rounded-lg shadow-lg mb-4">
+        <div className="col-span-1 lg:col-span-1">
+          <div className="bg-orange-500 p-4 rounded-lg shadow-lg mb-4">
             <div className="text-white text-xl font-bold mb-2">Categories</div>
             <div className="text-white text-sm space-y-2 flex flex-col">
               <NavLink to="#">Landing Page</NavLink>
@@ -123,7 +82,7 @@ const Blog = () => {
               <NavLink to="#">Travel</NavLink>
             </div>
           </div>
-          <div className="bg-teal-500 p-4 rounded-lg shadow-lg mb-4">
+          <div className="bg-orange-500 p-4 rounded-lg shadow-lg mb-4">
             <div className="text-white text-xl font-bold mb-2">Tags</div>
             <div className="text-white text-sm space-x-2">
               <NavLink to="#">Web</NavLink>

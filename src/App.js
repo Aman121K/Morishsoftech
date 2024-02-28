@@ -31,7 +31,7 @@ function App() {
         <Top />
         <Navbar />
         <Routes>
-          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/consultation" element={<Consultation />} />
           <Route path="/service" element={<Service />} />
           <Route path="/servicesection" element={<ServicesSection />} />
@@ -53,14 +53,7 @@ function App() {
           <Route path="/mission-values" element={<Mission />} />
           
         </Routes>
-        <Home />
-        <Consultation />
-        <Service />
-        <ServicesSection />
-        <CoreValuesSection />
-        <Testimonial />
-        <BlogSection />
-        <BusinessSection />
+        
         <Footer />
       </BrowserRouter>
     </>

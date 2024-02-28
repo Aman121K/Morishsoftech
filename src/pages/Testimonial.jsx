@@ -2,15 +2,9 @@ import React, { useState, useEffect, useCallback } from "react";
 
 const Testimonial = () => {
   const testimonials = [
-<<<<<<< HEAD
-    "Working with Endive Media was an absolute pleasure. Their web application development skills helped streamline our business processes, saving us time and resources. Their commitment to delivering on time and within budget was impressive. We look forward to collaborating with them on future projects. - Harsh Pandey, Co MD at Intage INDIA.",
-    "Another Working with Endive Media was an absolute pleasure. Their web application development skills helped streamline our business processes, saving us time and resources. Their commitment to delivering on time and within budget was impressive. We look forward to collaborating with them on future projects. - Harsh Pandey, Co MD at Intage INDIA.",
-    "Yet another Working with Endive Media was an absolute pleasure. Their web application development skills helped streamline our business processes, saving us time and resources. Their commitment to delivering on time and within budget was impressive. We look forward to collaborating with them on future projects. - Harsh Pandey, Co MD at Intage INDIA.",
-=======
     "Working with Buslala Technologies was an absolute pleasure. Their web application development skills helped streamline our business processes, saving us time and resources. Their commitment to delivering on time and within budget was impressive. We look forward to collaborating with them on future projects. - Shashi Ranjan, MD of Ride Poolings Technologies Pvt Ltd INDIA.",
     "Another Working with Buslala Technologies was an absolute pleasure. Their web application development skills helped streamline our business processes, saving us time and resources. Their commitment to delivering on time and within budget was impressive. We look forward to collaborating with them on future projects. - Shashi Ranjan, MD of  Ride Poolings Technologies Pvt Ltd INDIA.",
     "Yet another Working with Buslala Technologies was an absolute pleasure. Their web application development skills helped streamline our business processes, saving us time and resources. Their commitment to delivering on time and within budget was impressive. We look forward to collaborating with them on future projects. - Shashi Ranjan, MD of  Ride Poolings Technologies Pvt Ltd INDIA.",
->>>>>>> 11b0fc1d16daeed4b57adf7e505a05bb69192a39
   ];
 
   const [currentTestimonial, setCurrentTestimonial] = useState(0);
@@ -32,7 +26,7 @@ const Testimonial = () => {
   }, [showNextTestimonial]);
 
   return (
-    <div className="bg-teal-500 text-white p-4 md:p-10 relative">
+    <div className="bg-orange-500 text-white p-4 md:p-10 relative">
       <div className="flex flex-col md:flex-row items-center justify-between">
         <button
           className="text-white mb-4 md:mb-0"
@@ -46,7 +40,7 @@ const Testimonial = () => {
           </h2>
           <div className="flex items-center justify-center mb-4">
             <div className="bg-white rounded-full p-2 md:p-3 inline-block">
-              <span className="text-teal-500 text-lg md:text-2xl">
+              <span className="text-orange-500 text-lg md:text-2xl">
                 &#128100;
               </span>
             </div>
