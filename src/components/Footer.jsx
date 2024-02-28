@@ -17,17 +17,19 @@ const Footer = () => {
               alt="Web Designing and Development Company"
               style={{ maxWidth: "80px" }}
             />
-            <p>Buslala <br />Technologies</p>
+            <h4>Buslala Technologies</h4>
           </NavLink>
           <p>
-            SCF 45, Vyapar Sadan, Sector 14
+            RZF 535, Rajnagar-2,
+
             <br />
-            Gurgaon, Haryana 122001.
+            South West Delhi,
+            Delhi-110077
           </p>
           <NavLink to="#!" className="text-teal-200 hover:text-white">
-            Talk to an expert
+            {/* Talk to an expert */}
           </NavLink>
-          <p>+91-124-4118270</p>
+          {/* <p>+91-124-4118270</p> */}
         </div>
 
         <div>
@@ -123,7 +125,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="text-center text-sm mt-8">
-        © Copyright Buslala Technologies 2024. All rights reserved.
+        © Copyright  Bus Technologies 2024. All rights reserved.
       </div>
     </footer>
   );

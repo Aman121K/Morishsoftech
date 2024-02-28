@@ -28,8 +28,13 @@ const ServicesSection = () => {
   return (
     <div className="bg-white py-8 md:py-12">
       <div className="max-w-6xl mx-auto px-4">
+<<<<<<< HEAD
         <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-teal-600 text-center">
           Our wide range of services
+=======
+        <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-orange-600 text-center">
+          Our Services
+>>>>>>> 11b0fc1d16daeed4b57adf7e505a05bb69192a39
         </h2>
         <p className="mt-4 text-sm md:text-base lg:text-lg text-white-600 text-center">
           We delve deep into understanding your business goals to create a

@@ -123,6 +123,7 @@ function ContactForm() {
                     type="submit"
                     className="bg-green-500 text-white font-bold px-8 py-3 rounded-md hover:bg-green-600"
                   >
+
                     Submit
                   </button>
                 </div>
@@ -131,19 +132,38 @@ function ContactForm() {
             <div className="col-span-2 md:col-span-1">
               <div className="bg-gray-200 p-6 rounded-md">
                 <h2 className="text-xl font-bold text-gray-800 mb-4">
-                  India Address :
+                  Head Office :
+
                 </h2>
                 <p className="text-gray-600 mb-2">
-                  SCF 45, Vipul Garden
+                  Buslala Technologies Private Limited,
                   <br />
-                  Sector 48 Gurugram, Haryana 122018
+                  Panchbaidyanathpur, Parsauni Jahangir,Shebganj,Muzaffarpur,Bihar-843125
                 </p>
-                <p className="text-gray-600 mb-2">Phone: +91 (124) 411 8979</p>
+                <p className="text-gray-600 mb-2"></p>
                 <p className="text-gray-600 mb-2">
-                  Email: info@entiremedia.com
+                  support@buslalatechnologies.ltd
                 </p>
               </div>
+              <div className="col-span-2 md:col-span-1 mt-10">
+                <div className="bg-orange-200 p-6 rounded-md">
+                  <h2 className="text-xl font-bold text-gray-800 mb-4">
+                    Delhi Address :
+
+                  </h2>
+                  <p className="text-gray-600 mb-2">
+                    RZF 535, Rajnagar-2,
+                    <br />
+                    South West Delhi, Delhi-110077
+                  </p>
+                  <p className="text-gray-600 mb-2"></p>
+                  <p className="text-gray-600 mb-2">
+                    support@buslalatechnologies.ltd
+                  </p>
+                </div>
+              </div>
             </div>
+
           </div>
         </div>
       </div>
