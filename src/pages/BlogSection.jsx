@@ -38,7 +38,7 @@ const BlogSection = () => {
     {
       date: "28 July 2023",
       title:
-        "Revolutionizing Online Retail: Ecommerce Website Design in Gurgaon",
+        "Revolutionizing Online Retail: Ecommerce Website Design in Delhi",
       description:
         "In today's digital age, ecommerce has become an integral part of our lives.",
       imageUrl: img1,
@@ -46,7 +46,7 @@ const BlogSection = () => {
     {
       date: "28 July 2023",
       title:
-        "Revolutionizing Online Retail: Ecommerce Website Design in Gurgaon",
+        "Revolutionizing Online Retail: Ecommerce Website Design in Delhi",
       description:
         "In today's digital age, ecommerce has become an integral part of our lives.",
       imageUrl: img2,
@@ -54,7 +54,7 @@ const BlogSection = () => {
     {
       date: "28 July 2023",
       title:
-        "Revolutionizing Online Retail: Ecommerce Website Design in Gurgaon",
+        "Revolutionizing Online Retail: Ecommerce Website Design in Delhi",
       description:
         "In today's digital age, ecommerce has become an integral part of our lives.",
       imageUrl: img3,
