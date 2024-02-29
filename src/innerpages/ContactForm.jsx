@@ -136,9 +136,9 @@ function ContactForm() {
                 <p className="text-gray-600 mb-2">
                 Buslala Technologies Private Limited,
                   <br />
-                  Panchbaidyanathpur, Parsauni Jahangir,Shebganj,Muzaffarpur,Bihar-843125
+                  RZF 535, Rajnagar-2, South West Delhi, Delhi-110077
                 </p>
-                <p className="text-gray-600 mb-2">Phone: +91 (124) 411 8979</p>
+                {/* <p className="text-gray-600 mb-2">Phone: +91 (124) 411 8979</p> */}
                 <p className="text-gray-600 mb-2">
                 support@buslalatechnologies.ltd
                 </p>

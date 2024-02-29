@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink} from "react-router-dom";
 import logo from "../asset/logo1.png";
 import { FaFacebook, FaLinkedin, FaTwitter, FaGooglePlus } from "react-icons/fa6";
 
@@ -16,7 +16,7 @@ const Footer = () => {
             <img
               src={logo}
               alt="Web Designing and Development Company"
-              style={{ maxWidth: "80px" }}
+              style={{ maxWidth: "80px", width:"50px"}}
             />
             <h4>Buslala Technologies</h4>
           </NavLink>

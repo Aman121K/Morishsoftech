@@ -26,7 +26,7 @@ const Mission = () => {
           <p className="text-gray-600 leading-relaxed mb-8">
             Our approach integrates modern design with the latest technology,
             ensuring our clients stay at the forefront of the digital world.
-            With a team of skilled professionals, Endive Media is committed to
+            With a team of skilled professionals, Buslala Technologies is committed to
             driving success and delivering exceptional value through our
             distinctive web solutions.
           </p>

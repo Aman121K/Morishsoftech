@@ -18,7 +18,7 @@ const Blog = () => {
               id: 1,
               image: img1,
               title:
-                "Revolutionizing Online Retail: Ecommerce Website Design in Gurgaon",
+                "Revolutionizing Online Retail: Ecommerce Website Design in Delhi",
               date: "28 July 2023",
               article:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit ",

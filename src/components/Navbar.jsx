@@ -40,7 +40,7 @@ const Navbar = () => {
               className="w-10 md:w-20 "
               src={logo1}
               alt="Web Designing and Development Company"
-              style={{ maxWidth: "80px" }}
+              style={{ maxWidth: "80px", width: "50px" }}
             />
           
           
@@ -71,13 +71,15 @@ const Navbar = () => {
                  </NavLink>
                </li>
                <li className="dropdown submenu relative group">
-                  <li
+                  <NavLink
                   
                     className="dropdown-toggle"
                     data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
                   >
                     Web Development
-                  </li>
+                  </NavLink>
                   <ul className="dropdown-menu relative hidden group-hover:block bg-orange-400 p-4 border rounded text-sm">
                     <li title="Web Designing and Development Company">
                       <NavLink to="/web-development"
@@ -104,12 +106,14 @@ const Navbar = () => {
                   </ul>
                 </li>
                 <li className="dropdown submenu relative group">
-                  <li
+                  <NavLink
                     className="dropdown-toggle"
                     data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
                   >
                     Digital Marketing
-                  </li>
+                  </NavLink>
                   <ul className="dropdown-menu relative hidden group-hover:block z-50 bg-orange-400 p-4 border rounded text-sm">
                     <li title="Search Engine Optimization SEO Service">
                       <NavLink to="/seo" onClick={closeMobileMenu}>
@@ -123,12 +127,14 @@ const Navbar = () => {
                 </li>
                <li>
                <li className="dropdown submenu relative group">
-                  <li
+                  <NavLink
                     className="dropdown-toggle"
                     data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
                   >
                     Products
-                  </li>
+                  </NavLink>
                   <ul className="dropdown-menu relative hidden group-hover:block z-50 bg-orange-400 p-4 border rounded text-sm">
                     <li title="School Management Software">
                       <NavLink to="/school-management" onClick={closeMobileMenu}>
@@ -158,13 +164,13 @@ const Navbar = () => {
                     Company
                   </li>
                   <ul className="dropdown-menu relative hidden group-hover:block z-50 bg-orange-400 p-4 border rounded text-sm">
-                    <li title="Endive Media - A Web Development Company">
+                    <li title="Buslala Technologies - A Web Development Company">
                       <NavLink to="/about" onClick={closeMobileMenu}>About Us</NavLink>
                     </li>
                     <li title="Web Development Mission and Vision">
                       <NavLink to="/mission-values" onClick={closeMobileMenu}>Mission & Values</NavLink>
                     </li>
-                    <li title="Why Choose Endive Media">
+                    <li title="Why Choose Buslala Technologies">
                       <NavLink to="/choose-us" onClick={closeMobileMenu}>Why Choose Us</NavLink>
                     </li>
                   </ul>
@@ -280,13 +286,13 @@ const Navbar = () => {
                     Company
                   </NavLink>
                   <ul className="dropdown-menu fixed hidden group-hover:block z-50 bg-orange-400 p-4 border rounded">
-                    <li title="Endive Media - A Web Development Company">
+                    <li title="Buslala Technologies - A Web Development Company">
                       <NavLink to="/about">About Us</NavLink>
                     </li>
                     <li title="Web Development Mission and Vision">
                       <NavLink to="/mission-values">Mission & Values</NavLink>
                     </li>
-                    <li title="Why Choose Endive Media">
+                    <li title="Why Choose Buslala Technologies">
                       <NavLink to="/choose-us">Why Choose Us</NavLink>
                     </li>
                   </ul>
