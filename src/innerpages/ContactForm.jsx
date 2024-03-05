@@ -131,7 +131,7 @@ function ContactForm() {
             <div className="col-span-2 md:col-span-1">
               <div className="bg-gray-200 p-6 rounded-md">
                 <h2 className="text-xl font-bold text-gray-800 mb-4">
-                Head Office :
+                Head Office : <strong className="text-sm font-normal text-black">704,7TH FLOOR PALM COURT, MEHRAULI-GURGAON ROAD SECTOR 16, GURUGRAM, HARYANA 122007.</strong>
                 </h2>
                 <p className="text-gray-600 mb-2">
                 Buslala Technologies Private Limited,
