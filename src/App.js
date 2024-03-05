@@ -23,11 +23,13 @@ import School from "./innerpages/School";
 import About from "./innerpages/About";
 import Choose from "./innerpages/Choose";
 import Mission from "./innerpages/Mission";
+import ScrollToTop from "./components/ScrollTotop";
 
 function App() {
   return (
     <>
       <BrowserRouter>
+      <ScrollToTop />
         <Top />
         <Navbar />
         <Routes>
