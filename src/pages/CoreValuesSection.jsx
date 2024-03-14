@@ -19,15 +19,15 @@ const CoreValuesSection = () => {
         </p>
         <div className="flex justify-start space-x-8">
           <div className="text-center">
-            <p className="text-3xl font-semibold text-orange-600">6+</p>
+            <p className="text-3xl font-semibold text-orange-600">3+</p>
             <p className="text-gray-600">Countries Serve</p>
           </div>
           <div className="text-center">
-            <p className="text-3xl font-semibold text-orange-600">10+</p>
+            <p className="text-3xl font-semibold text-orange-600">90+</p>
             <p className="text-gray-600">Clients Serve</p>
           </div>
           <div className="text-center">
-            <p className="text-3xl font-semibold text-orange-600">30+</p>
+            <p className="text-3xl font-semibold text-orange-600">250+</p>
             <p className="text-gray-600">Projects Completed</p>
           </div>
         </div>
