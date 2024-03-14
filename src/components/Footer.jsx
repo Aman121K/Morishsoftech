@@ -21,10 +21,11 @@ const Footer = () => {
             <h4>Buslala Technologies</h4>
           </NavLink>
           <p>
-          RZF 535, Rajnagar-2,
+          704,7TH FLOOR PALM COURT,
+          {/* RZF 535, Rajnagar-2, */}
             <br />
-            South West Delhi,
-            Delhi-110077
+            MEHRAULI-GURGAON ROAD SECTOR 16, 
+            GURUGRAM, HARYANA 122007.
           </p>
           <NavLink to="#!" className="text-orange-200 hover:text-white">
             {/* Talk to an expert */}
