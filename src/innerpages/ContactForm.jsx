@@ -137,7 +137,7 @@ function ContactForm() {
                   <br />
                 </p>
                 <h2 className="text-xl font-bold text-gray-800 mb-4">
-                  Head Office : <strong className="text-sm font-normal text-black">Panchbaidyanathpur, Parsauni Jahangir,Shebganj,Muzaffarpur,Bihar-843125</strong>
+                  Head Office : <strong className="text-sm font-normal text-black"> Parsauni Jahangir, Sahebganj, Muzaffarpur, Bihar-843125</strong>
                 </h2>
                 <p className="text-gray-600 mb-2">
                   Buslala Technologies Private Limited,
