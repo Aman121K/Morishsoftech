@@ -18,7 +18,7 @@ const Blog = () => {
               id: 1,
               image: img1,
               title:
-                "Revolutionizing Online Retail: Ecommerce Website Design in Delhi",
+                "Revolutionizing Online Retail: Ecommerce Website Design in Gurgaon",
               date: "28 July 2023",
               article:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit ",
@@ -27,7 +27,7 @@ const Blog = () => {
               id: 2,
               image: img2,
               title:
-                "  Why Choose Buslala Technologies as Your Website Designing Company in Delhi",
+                "  Why Choose Buslala Technologies as Your Website Designing Company in Gurgaon",
               date: "28 July 2023",
               article:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit",

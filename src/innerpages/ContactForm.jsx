@@ -130,13 +130,19 @@ function ContactForm() {
             </div>
             <div className="col-span-2 md:col-span-1">
               <div className="bg-gray-200 p-6 rounded-md">
+              <h1 className="text-xl font-bold text-gray-800 mb-4">
+                  Branch Office : <strong className="text-sm font-normal text-black">  704,7TH FLOOR PALM COURT, MEHRAULI-GURGAON ROAD SECTOR 16, GURUGRAM, HARYANA 122007.</strong>
+                </h1>
+                <p className="text-gray-600 mb-2">
+                  <br />
+                </p>
                 <h2 className="text-xl font-bold text-gray-800 mb-4">
                   Head Office : <strong className="text-sm font-normal text-black">Panchbaidyanathpur, Parsauni Jahangir,Shebganj,Muzaffarpur,Bihar-843125</strong>
                 </h2>
                 <p className="text-gray-600 mb-2">
                   Buslala Technologies Private Limited,
                   <br />
-                  704,7TH FLOOR PALM COURT, MEHRAULI-GURGAON ROAD SECTOR 16, GURUGRAM, HARYANA 122007.
+                  {/* 704,7TH FLOOR PALM COURT, MEHRAULI-GURGAON ROAD SECTOR 16, GURUGRAM, HARYANA 122007. */}
                 </p>
                 {/* <p className="text-gray-600 mb-2">Phone: +91 (124) 411 8979</p> */}
                 <p className="text-gray-600 mb-2">
