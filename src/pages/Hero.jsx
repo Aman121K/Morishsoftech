@@ -55,7 +55,7 @@ const Hero = () => {
             </button>
             <div className="absolute bottom-0 ml-2 md:ml-20 md:left-20 p-4 text-center bg-opacity-30 md:backdrop-blur-md">
               <h1 className="md:text-6xl text-xl font-bold text-white">
-                Making <br /> Businesses <br /> Easy
+                Making <br /> Business <br /> Easy
               </h1>
             </div>
             <div className="md:p-12 text-gray-800 md:mr-11 md:mt-32">

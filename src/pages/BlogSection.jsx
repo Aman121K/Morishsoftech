@@ -38,7 +38,7 @@ const BlogSection = () => {
     {
       date: "28 July 2023",
       title:
-        "Revolutionizing Online Retail: Ecommerce Website Design in Gurgoan",
+        "Revolutionizing Online Retail: Ecommerce Website Design in Gurgaon",
       description:
         "In today's digital age, ecommerce has become an integral part of our lives.",
       imageUrl: img1,
