@@ -26,7 +26,7 @@ const Top = () => {
     >
       <div className="flex items-center justify-center text-white text-xs md:text-xl mb-4 md:mb-0 md:mr-4 md:ml-10 ml-5">
   <IoCall className="mr-2" /> 
-  Need any help? Email to expert: support@buslalatechnologies.ltd
+  Need any help? Email to expert: info@techxfellas.com
 </div>
       <div className="text-white space-x-4 mr-10 ">
         <NavLink to="/blog">Digital Dairy</NavLink>

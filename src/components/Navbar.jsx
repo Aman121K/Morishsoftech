@@ -164,13 +164,13 @@ const Navbar = () => {
                     Company
                   </li>
                   <ul className="dropdown-menu relative hidden group-hover:block z-50 bg-orange-400 p-4 border rounded text-sm">
-                    <li title="Buslala Technologies - A Web Development Company">
+                    <li title="TechXFellas - A Web Development Company">
                       <NavLink to="/about" onClick={closeMobileMenu}>About Us</NavLink>
                     </li>
                     <li title="Web Development Mission and Vision">
                       <NavLink to="/mission-values" onClick={closeMobileMenu}>Mission & Values</NavLink>
                     </li>
-                    <li title="Why Choose Buslala Technologies">
+                    <li title="Why Choose TechXFellas">
                       <NavLink to="/choose-us" onClick={closeMobileMenu}>Why Choose Us</NavLink>
                     </li>
                   </ul>
@@ -286,13 +286,13 @@ const Navbar = () => {
                     Company
                   </NavLink>
                   <ul className="dropdown-menu fixed hidden group-hover:block z-50 bg-orange-400 p-4 border rounded">
-                    <li title="Buslala Technologies - A Web Development Company">
+                    <li title="TechXFellas - A Web Development Company">
                       <NavLink to="/about">About Us</NavLink>
                     </li>
                     <li title="Web Development Mission and Vision">
                       <NavLink to="/mission-values">Mission & Values</NavLink>
                     </li>
-                    <li title="Why Choose Buslala Technologies">
+                    <li title="Why Choose TechXFellas">
                       <NavLink to="/choose-us">Why Choose Us</NavLink>
                     </li>
                   </ul>

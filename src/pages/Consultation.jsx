@@ -9,7 +9,7 @@ const Consultation = () => {
           Contact our customer support team if you have any further questions.
           We are here to help you out
         </p>
-        <p className="text-xl md:text-2xl font-semibold mt-8">support@buslalatechnologies.ltd</p>
+        <p className="text-xl md:text-2xl font-semibold mt-8">info@techxfellas.com</p>
       </div>
       <div className="p-6 bg-white mx-auto md:w-2/3 lg:w-1/2">
         <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold">

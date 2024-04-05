@@ -25,7 +25,7 @@ const Web = () => {
             Web Design and Development Company
           </h1>
           <p className="text-gray-600 leading-relaxed mb-8">
-            At Buslala Technologies, we believe that website development is not about
+            At TechXFellas, we believe that website development is not about
             merely programming the data to create a collection of web-pages
             website, we believe that an efficient website helps in adding value
             to a brand. It helps a business reach out to a greater number of

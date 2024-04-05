@@ -2,9 +2,9 @@ import React, { useState, useEffect, useCallback } from "react";
 
 const Testimonial = () => {
   const testimonials = [
-    "Working with Buslala Technologies was an absolute pleasure. Their web application development skills helped streamline our business processes, saving us time and resources. Their commitment to delivering on time and within budget was impressive. We look forward to collaborating with them on future projects. - MK Verma, MD of Ride Poolings Technologies Pvt Ltd INDIA.",
-    "Another Working with Buslala Technologies was an absolute pleasure. Their web application development skills helped streamline our business processes, saving us time and resources. Their commitment to delivering on time and within budget was impressive. We look forward to collaborating with them on future projects. - MK Verma, MD of  Ride Poolings Technologies Pvt Ltd INDIA.",
-    "Yet another Working with Buslala Technologies was an absolute pleasure. Their web application development skills helped streamline our business processes, saving us time and resources. Their commitment to delivering on time and within budget was impressive. We look forward to collaborating with them on future projects. - MK Verma, MD of  Ride Poolings Technologies Pvt Ltd INDIA.",
+    "Working with TechXFellas was an absolute pleasure. Their web application development skills helped streamline our business processes, saving us time and resources. Their commitment to delivering on time and within budget was impressive. We look forward to collaborating with them on future projects. - MK Verma, MD of Ride Poolings Technologies Pvt Ltd INDIA.",
+    "Another Working with TechXFellas was an absolute pleasure. Their web application development skills helped streamline our business processes, saving us time and resources. Their commitment to delivering on time and within budget was impressive. We look forward to collaborating with them on future projects. - MK Verma, MD of  Ride Poolings Technologies Pvt Ltd INDIA.",
+    "Yet another Working with TechXFellas was an absolute pleasure. Their web application development skills helped streamline our business processes, saving us time and resources. Their commitment to delivering on time and within budget was impressive. We look forward to collaborating with them on future projects. - MK Verma, MD of  Ride Poolings Technologies Pvt Ltd INDIA.",
   ];
 
   const [currentTestimonial, setCurrentTestimonial] = useState(0);

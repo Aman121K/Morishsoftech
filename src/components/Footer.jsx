@@ -18,14 +18,14 @@ const Footer = () => {
               alt="Web Designing and Development Company"
               style={{ maxWidth: "80px", width:"50px"}}
             />
-            <h4>Buslala Technologies</h4>
+            <h4>TechXFellas</h4>
           </NavLink>
           <p>
-          704,7TH FLOOR PALM COURT,
+          F4-1406 Amrpali leasure park, Greater Noida U.P.,
           {/* RZF 535, Rajnagar-2, */}
             <br />
-            MEHRAULI-GURGAON ROAD SECTOR 16, 
-            GURUGRAM, HARYANA 122007.
+            {/* MEHRAULI-GURGAON ROAD SECTOR 16, 
+            GURUGRAM, HARYANA 122007. */}
           </p>
           <NavLink to="#!" className="text-orange-200 hover:text-white">
             {/* Talk to an expert */}
@@ -126,7 +126,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="text-center text-sm mt-8">
-      © Copyright  Buslala Technologies 2024. All rights reserved.
+      © Copyright  TechXFellas 2024. All rights reserved.
       </div>
     </footer>
   );
