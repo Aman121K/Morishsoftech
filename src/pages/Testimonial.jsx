@@ -26,7 +26,7 @@ const Testimonial = () => {
   }, [showNextTestimonial]);
 
   return (
-    <div className="bg-orange-500 text-white p-4 md:p-10 relative">
+    <div className="bg-purple-500 text-white p-4 md:p-10 relative">
       <div className="flex flex-col md:flex-row items-center justify-between">
         <button
           className="text-white mb-4 md:mb-0"
@@ -40,7 +40,7 @@ const Testimonial = () => {
           </h2>
           <div className="flex items-center justify-center mb-4">
             <div className="bg-white rounded-full p-2 md:p-3 inline-block">
-              <span className="text-orange-500 text-lg md:text-2xl">
+              <span className="text-purple-500 text-lg md:text-2xl">
                 &#128100;
               </span>
             </div>

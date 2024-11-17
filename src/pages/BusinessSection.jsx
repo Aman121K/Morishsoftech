@@ -38,10 +38,10 @@ import React from "react";
 
 const BusinessPanel = ({ title, text, buttonText }) => {
   return (
-    <div className="bg-orange-100 p-8 text-center">
+    <div className="bg-purple-100 p-8 text-center">
       <h2 className="text-4xl font-bold mb-4">{title}</h2>
       <p className="mb-6">{text}</p>
-      <button className="bg-orange-500 text-white font-bold py-2 px-4 rounded hover:bg-orange-600 transition duration-300">
+      <button className="bg-purple-500 text-white font-bold py-2 px-4 rounded hover:bg-purple-600 transition duration-300">
         {buttonText}
       </button>
     </div>

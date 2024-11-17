@@ -5,7 +5,7 @@ import { FaFacebook, FaLinkedin, FaTwitter, FaGooglePlus } from "react-icons/fa6
 
 const Footer = () => {
   return (
-    <footer className="bg-orange-600 text-white p-8">
+    <footer className="bg-purple-600 text-white p-8">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
         <div className="flex flex-col space-y-4 ">
           <NavLink
@@ -25,62 +25,62 @@ const Footer = () => {
             <br />
         
           </p>
-          <NavLink to="#!" className="text-orange-200 hover:text-white">
+          <NavLink to="#!" className="text-purple-200 hover:text-white">
           </NavLink>
         </div>
 
         <div>
-          <h3 className="text-lg font-semibold mb-2 border-b-2 border-orange-700 pb-1">
+          <h3 className="text-lg font-semibold mb-2 border-b-2 border-purple-700 pb-1">
             Useful Links
           </h3>
           <ul className="grid grid-cols-2 gap-4">
             <li>
-              <NavLink to="/" className="hover:text-orange-200">
+              <NavLink to="/" className="hover:text-purple-200">
                 Home
               </NavLink>
             </li>
             <li>
-              <NavLink to="/about" className="hover:text-orange-200">
+              <NavLink to="/about" className="hover:text-purple-200">
                 About Us
               </NavLink>
             </li>
             <li>
-              <NavLink to="/contact" className="hover:text-orange-200">
+              <NavLink to="/contact" className="hover:text-purple-200">
                 Reach Us
               </NavLink>
             </li>
             <li>
-              <NavLink to="/about" className="hover:text-orange-200">
+              <NavLink to="/about" className="hover:text-purple-200">
                 Privacy Policy
               </NavLink>
             </li>
             <li>
-              <NavLink to="/" className="hover:text-orange-200">
+              <NavLink to="/" className="hover:text-purple-200">
                 Term & Conditions
               </NavLink>
             </li>
             <li>
-              <NavLink to="/web-development" className="hover:text-orange-200">
+              <NavLink to="/web-development" className="hover:text-purple-200">
                 Web Development
               </NavLink>
             </li>
             <li>
-              <NavLink to="/appdevelopment" className="hover:text-orange-200">
+              <NavLink to="/appdevelopment" className="hover:text-purple-200">
                 App Development
               </NavLink>
             </li>
             <li>
-              <NavLink to="/school" className="hover:text-orange-200">
+              <NavLink to="/school" className="hover:text-purple-200">
                 School Management
               </NavLink>
             </li>
             <li>
-              <NavLink to="/ecommerce" className="hover:text-orange-200">
+              <NavLink to="/ecommerce" className="hover:text-purple-200">
                 Ecommerce Solution
               </NavLink>
             </li>
             <li>
-              <NavLink to="/smm" className="hover:text-orange-200">
+              <NavLink to="/smm" className="hover:text-purple-200">
                 Social Media Marketing (SMM)
               </NavLink>
             </li>
@@ -88,34 +88,34 @@ const Footer = () => {
         </div>
 
         <div>
-          <h3 className="text-lg font-semibold mb-2 border-b-2 border-orange-700 pb-1">
+          <h3 className="text-lg font-semibold mb-2 border-b-2 border-purple-700 pb-1">
             Newsletter
           </h3>
           <form className="flex flex-col space-y-4">
             <input
               type="email"
               placeholder="Your email address"
-              className="w-full px-4 py-2 text-orange-900"
+              className="w-full px-4 py-2 text-purple-900"
             />
             <button
               type="submit"
-              className="bg-orange-700 hover:bg-orange-800 text-white font-bold py-2 px-4 rounded"
+              className="bg-purple-700 hover:bg-purple-800 text-white font-bold py-2 px-4 rounded"
             >
               Subscribe
             </button>
           </form>
           <div className="flex justify-start space-x-4 mt-4">
             
-            <NavLink to="https://facebook.com" className="hover:text-orange-200 text-2xl">
+            <NavLink to="https://facebook.com" className="hover:text-purple-200 text-2xl">
             <FaFacebook />
             </NavLink>
-            <NavLink to="https://www.linkedin.com" className="hover:text-orange-200 text-2xl">
+            <NavLink to="https://www.linkedin.com" className="hover:text-purple-200 text-2xl">
               <FaLinkedin />
             </NavLink>
-            <NavLink to="https://twitter.com" className="hover:text-orange-200 text-2xl">
+            <NavLink to="https://twitter.com" className="hover:text-purple-200 text-2xl">
               <FaTwitter />
             </NavLink>
-            <NavLink to="https://google.com" className="hover:text-orange-200 text-2xl">
+            <NavLink to="https://google.com" className="hover:text-purple-200 text-2xl">
               <FaGooglePlus />
             </NavLink>
           </div>

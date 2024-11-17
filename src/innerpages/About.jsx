@@ -7,7 +7,7 @@ const About = () => {
         <h1 className="text-4xl font-bold mb-4">About Us</h1>
         <div className="flex flex-col md:flex-row justify-around w-full md:w-3/4">
           <div className="flex flex-col w-full md:w-1/2 p-4 md:p-10">
-            <p className="mb-4 bg-orange-200 text-justify rounded-lg">
+            <p className="mb-4 bg-purple-200 text-justify rounded-lg">
               At Morishsoftech, we develop distinct intelligible, robust and
               secure digital solutions and software applications as per specific
               needs of your enterprise. Our team of expert developers and web
@@ -29,7 +29,7 @@ const About = () => {
             </p>
           </div>
           <div className="flex flex-col w-full md:w-1/2 p-4 md:p-10">
-            <h2 className="text-2xl font-bold text-orange-500 mb-4">
+            <h2 className="text-2xl font-bold text-purple-500 mb-4">
               We believe that powerful design is an extension of brand building.
             </h2>
             <p className="mb-4 text-justify">

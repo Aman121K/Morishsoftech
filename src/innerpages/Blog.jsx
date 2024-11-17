@@ -7,7 +7,7 @@ import { NavLink } from "react-router-dom";
 const Blog = () => {
   return (
     <div className="container mx-auto p-4">
-      <div className="text-white text-4xl font-bold mb-4 bg-orange-500 p-4">
+      <div className="text-white text-4xl font-bold mb-4 bg-purple-500 p-4">
         Latest Blog
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -73,7 +73,7 @@ const Blog = () => {
         </div>
 
         <div className="col-span-1 lg:col-span-1">
-          <div className="bg-orange-500 p-4 rounded-lg shadow-lg mb-4">
+          <div className="bg-purple-500 p-4 rounded-lg shadow-lg mb-4">
             <div className="text-white text-xl font-bold mb-2">Categories</div>
             <div className="text-white text-sm space-y-2 flex flex-col">
               <NavLink to="#">Landing Page</NavLink>
@@ -82,7 +82,7 @@ const Blog = () => {
               <NavLink to="#">Travel</NavLink>
             </div>
           </div>
-          <div className="bg-orange-500 p-4 rounded-lg shadow-lg mb-4">
+          <div className="bg-purple-500 p-4 rounded-lg shadow-lg mb-4">
             <div className="text-white text-xl font-bold mb-2">Tags</div>
             <div className="text-white text-sm space-x-2">
               <NavLink to="#">Web</NavLink>

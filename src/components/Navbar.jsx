@@ -80,7 +80,7 @@ const Navbar = () => {
                   >
                     Web Development
                   </NavLink>
-                  <ul className="dropdown-menu relative hidden group-hover:block bg-orange-400 p-4 border rounded text-sm">
+                  <ul className="dropdown-menu relative hidden group-hover:block bg-purple-400 p-4 border rounded text-sm">
                     <li title="Web Designing and Development Company">
                       <NavLink to="/web-development"
                       onClick={closeMobileMenu}>
@@ -114,7 +114,7 @@ const Navbar = () => {
                   >
                     Digital Marketing
                   </NavLink>
-                  <ul className="dropdown-menu relative hidden group-hover:block z-50 bg-orange-400 p-4 border rounded text-sm">
+                  <ul className="dropdown-menu relative hidden group-hover:block z-50 bg-purple-400 p-4 border rounded text-sm">
                     <li title="Search Engine Optimization SEO Service">
                       <NavLink to="/seo" onClick={closeMobileMenu}>
                         Search Engine Optimization (SEO)
@@ -135,7 +135,7 @@ const Navbar = () => {
                   >
                     Products
                   </NavLink>
-                  <ul className="dropdown-menu relative hidden group-hover:block z-50 bg-orange-400 p-4 border rounded text-sm">
+                  <ul className="dropdown-menu relative hidden group-hover:block z-50 bg-purple-400 p-4 border rounded text-sm">
                     <li title="School Management Software">
                       <NavLink to="/school-management" onClick={closeMobileMenu}>
                         School Management Application
@@ -163,7 +163,7 @@ const Navbar = () => {
                   >
                     Company
                   </li>
-                  <ul className="dropdown-menu relative hidden group-hover:block z-50 bg-orange-400 p-4 border rounded text-sm">
+                  <ul className="dropdown-menu relative hidden group-hover:block z-50 bg-purple-400 p-4 border rounded text-sm">
                     <li title="Morishsoftech - A Web Development Company">
                       <NavLink to="/about" onClick={closeMobileMenu}>About Us</NavLink>
                     </li>
@@ -204,7 +204,7 @@ const Navbar = () => {
                   >
                     Web Development
                   </NavLink>
-                  <ul className="dropdown-menu fixed hidden group-hover:block z-50 bg-orange-400 p-4 border rounded">
+                  <ul className="dropdown-menu fixed hidden group-hover:block z-50 bg-purple-400 p-4 border rounded">
                     <li title="Web Designing and Development Company">
                       <NavLink to="/web-development">
                         Web Design & Development
@@ -233,7 +233,7 @@ const Navbar = () => {
                   >
                     Digital Marketing
                   </NavLink>
-                  <ul className="dropdown-menu fixed hidden group-hover:block z-50 bg-orange-400 p-4 border rounded">
+                  <ul className="dropdown-menu fixed hidden group-hover:block z-50 bg-purple-400 p-4 border rounded">
                     <li title="Search Engine Optimization SEO Service">
                       <NavLink to="/seo">
                         Search Engine Optimization (SEO)
@@ -255,7 +255,7 @@ const Navbar = () => {
                   >
                     Products
                   </NavLink>
-                  <ul className="dropdown-menu fixed hidden group-hover:block z-50 bg-orange-400 p-4 border rounded">
+                  <ul className="dropdown-menu fixed hidden group-hover:block z-50 bg-purple-400 p-4 border rounded">
                     <li title="School Management Software">
                       <NavLink to="/school-management">
                         School Management Application
@@ -285,7 +285,7 @@ const Navbar = () => {
                   >
                     Company
                   </NavLink>
-                  <ul className="dropdown-menu fixed hidden group-hover:block z-50 bg-orange-400 p-4 border rounded">
+                  <ul className="dropdown-menu fixed hidden group-hover:block z-50 bg-purple-400 p-4 border rounded">
                     <li title="Morishsoftech - A Web Development Company">
                       <NavLink to="/about">About Us</NavLink>
                     </li>

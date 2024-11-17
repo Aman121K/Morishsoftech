@@ -20,7 +20,7 @@ const Top = () => {
 
   return (
     <div
-      className={`hidden :block bg-orange-500 p-4 md:flex flex-col md:flex-row justify-between  ${
+      className={`hidden :block bg-purple-500 p-4 md:flex flex-col md:flex-row justify-between  ${
         isScrolled ? "fixed top-0 w-full z-50" : "static"
       }`}
     >
