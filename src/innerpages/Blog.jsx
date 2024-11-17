@@ -27,7 +27,7 @@ const Blog = () => {
               id: 2,
               image: img2,
               title:
-                "  Why Choose TechXFellas as Your Website Designing Company in Gurgaon",
+                "  Why Choose Morishsoftech as Your Website Designing Company in Gurgaon",
               date: "28 July 2023",
               article:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit",

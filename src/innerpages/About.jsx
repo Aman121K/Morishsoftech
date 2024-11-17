@@ -8,7 +8,7 @@ const About = () => {
         <div className="flex flex-col md:flex-row justify-around w-full md:w-3/4">
           <div className="flex flex-col w-full md:w-1/2 p-4 md:p-10">
             <p className="mb-4 bg-orange-200 text-justify rounded-lg">
-              At TechXFellas, we develop distinct intelligible, robust and
+              At Morishsoftech, we develop distinct intelligible, robust and
               secure digital solutions and software applications as per specific
               needs of your enterprise. Our team of expert developers and web
               designers are adept in creating world-class creative solutions

@@ -64,7 +64,7 @@ const Hero = () => {
                 <span className="text-white">a digital future</span>
               </h1>
               <p className="ml-8 text-sm md:text-xl mt-4 text-white">
-              TechXFellas is one of the world’s top business consulting
+              Morishsoftech is one of the world’s top business consulting
                 firms. We help global leaders with their organization's most
                 critical issues & opportunities.
               </p>

@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink} from "react-router-dom";
-import logo from "../asset/logo1.png";
+import logo from "../asset/newLogo.jpeg";
 import { FaFacebook, FaLinkedin, FaTwitter, FaGooglePlus } from "react-icons/fa6";
 
 const Footer = () => {
@@ -16,21 +16,17 @@ const Footer = () => {
             <img
               src={logo}
               alt="Web Designing and Development Company"
-              style={{ maxWidth: "80px", width:"50px"}}
+              style={{ maxWidth: "100px", width:"100px"}}
             />
-            <h4>TechXFellas</h4>
+            <h4>Morishsoftech</h4>
           </NavLink>
           <p>
           F4-1406 Amrpali leasure park, Greater Noida U.P.,
-          {/* RZF 535, Rajnagar-2, */}
             <br />
-            {/* MEHRAULI-GURGAON ROAD SECTOR 16, 
-            GURUGRAM, HARYANA 122007. */}
+        
           </p>
           <NavLink to="#!" className="text-orange-200 hover:text-white">
-            {/* Talk to an expert */}
           </NavLink>
-          {/* <p>+91-124-4118270</p> */}
         </div>
 
         <div>
@@ -126,7 +122,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="text-center text-sm mt-8">
-      © Copyright  TechXFellas 2024. All rights reserved.
+      © Copyright  Morishsoftech 2024. All rights reserved.
       </div>
     </footer>
   );

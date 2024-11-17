@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
-import logo1 from "../asset/logo1.png";
+import logo1 from "../asset/newLogo.jpeg";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -164,13 +164,13 @@ const Navbar = () => {
                     Company
                   </li>
                   <ul className="dropdown-menu relative hidden group-hover:block z-50 bg-orange-400 p-4 border rounded text-sm">
-                    <li title="TechXFellas - A Web Development Company">
+                    <li title="Morishsoftech - A Web Development Company">
                       <NavLink to="/about" onClick={closeMobileMenu}>About Us</NavLink>
                     </li>
                     <li title="Web Development Mission and Vision">
                       <NavLink to="/mission-values" onClick={closeMobileMenu}>Mission & Values</NavLink>
                     </li>
-                    <li title="Why Choose TechXFellas">
+                    <li title="Why Choose Morishsoftech">
                       <NavLink to="/choose-us" onClick={closeMobileMenu}>Why Choose Us</NavLink>
                     </li>
                   </ul>
@@ -286,13 +286,13 @@ const Navbar = () => {
                     Company
                   </NavLink>
                   <ul className="dropdown-menu fixed hidden group-hover:block z-50 bg-orange-400 p-4 border rounded">
-                    <li title="TechXFellas - A Web Development Company">
+                    <li title="Morishsoftech - A Web Development Company">
                       <NavLink to="/about">About Us</NavLink>
                     </li>
                     <li title="Web Development Mission and Vision">
                       <NavLink to="/mission-values">Mission & Values</NavLink>
                     </li>
-                    <li title="Why Choose TechXFellas">
+                    <li title="Why Choose Morishsoftech">
                       <NavLink to="/choose-us">Why Choose Us</NavLink>
                     </li>
                   </ul>

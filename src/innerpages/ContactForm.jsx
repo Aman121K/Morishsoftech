@@ -140,13 +140,13 @@ function ContactForm() {
                   Head Office : <strong className="text-sm font-normal text-black"> F4-1406 Amrpali leasure park, Greater Noida U.P.</strong>
                 </h2>
                 <p className="text-gray-600 mb-2">
-                  TechXFellas Private Limited,
+                  Morishsoftech Private Limited,
                   <br />
                   {/* F4-1406 Amrpali leasure park, Greater Noida U.P., MEHRAULI-GURGAON ROAD SECTOR 16, GURUGRAM, HARYANA 122007. */}
                 </p>
                 {/* <p className="text-gray-600 mb-2">Phone: +91 (124) 411 8979</p> */}
                 <p className="text-gray-600 mb-2">
-                  info@techxfellas.com
+                  info@Morishsoftech.com
                 </p>
               </div>
             </div>

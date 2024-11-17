@@ -22,7 +22,7 @@ const Choose = () => {
 
       <div className="w-full lg:w-3/4 bg-white p-8">
         <h1 className="text-3xl font-bold text-orange-600 mb-6">
-        Why Choose TechXFellas
+        Why Choose Morishsoftech
         </h1>
         <p className="text-gray-600 leading-relaxed mb-8">
           With the number of active internet users having long crossed the 1
