@@ -18,10 +18,10 @@ const Footer = () => {
               alt="Web Designing and Development Company"
               style={{ maxWidth: "100px", width:"100px"}}
             />
-            <h4>Morishsoftech</h4>
+            <h4>Morish Softech</h4>
           </NavLink>
           <p>
-          F4-1406 Amrpali leasure park, Greater Noida U.P.,
+          704,7TH FLOOR PALM COURT, MEHRAULI-GURGAON ROAD SECTOR 16, GURUGRAM, HARYANA 122007
             <br />
         
           </p>

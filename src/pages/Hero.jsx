@@ -39,46 +39,39 @@ const Hero = () => {
   }, [showNextSlide, autoplay]);
 
   return (
-    <section className="main_slider_area relative">
-      <div className="video_boxes relative">
-        <div className="container relative">
-          <div
-            className="video_boxs relative bg-cover bg-center h-[60vh] lg:h-screen w-[100%] flex items-center justify-center  bg-opacity-75 "
-            style={{ backgroundImage: `url(${sliders[currentSlide]})` }}
-            onClick={() => setAutoplay(!autoplay)}
-          >
-            <button
-              onClick={handlePrevClick}
-              className="text-2xl slider-button previous-button absolute left-2 transform -translate-y-1/2 translate-x-1/2 top-1/2 hover:scale-120 hover:shadow-md transition-transform duration-300"
-            >
-              {"<"}
-            </button>
-            <div className="absolute bottom-0 ml-2 md:ml-20 md:left-20 p-4 text-center bg-opacity-30 md:backdrop-blur-md">
-              <h1 className="md:text-6xl text-xl font-bold text-white">
-                Making <br /> Business <br /> Easy
-              </h1>
-            </div>
-            <div className="md:p-12 text-gray-800 md:mr-11 md:mt-32">
-              <h1 className="text-xl md:text-4xl font-bold ml-28 md:ml-56">
-                Reinventing Companies for{" "}
-                <span className="text-white">a digital future</span>
-              </h1>
-              <p className="ml-8 text-sm md:text-xl mt-4 text-white">
-              Morishsoftech is one of the world’s top business consulting
-                firms. We help global leaders with their organization's most
-                critical issues & opportunities.
-              </p>
-            </div>
-            <button
-              onClick={handleNextClick}
-              className="text-2xl slider-button next-button absolute right-2 transform -translate-y-1/2 translate-x-1/2 top-1/2 hover:scale-120 hover:shadow-md transition-transform duration-300"
-            >
-              {">"}
-            </button>
-          </div>
-        </div>
+<section className="main_slider_area relative min-h-screen flex items-center justify-center">
+  <div className="video_boxes relative w-full">
+    <div
+      className="video_boxs relative bg-cover bg-center h-[60vh] lg:h-screen w-[100%] flex flex-col items-center justify-center bg-opacity-75"
+      style={{ backgroundImage: `url(${sliders[currentSlide]})` }}
+      onClick={() => setAutoplay(!autoplay)}
+    >
+      <button
+        onClick={handlePrevClick}
+        className="text-2xl slider-button previous-button absolute left-2 transform -translate-y-1/2 translate-x-1/2 top-1/2 hover:scale-120 hover:shadow-md transition-transform duration-300"
+      >
+        {"<"}
+      </button>
+      <div className="text-center bg-opacity-30 md:backdrop-blur-md">
+        <h1 className="md:text-6xl text-xl font-bold text-white">
+          {/* Your Heading */}
+        </h1>
+        <p className="ml-8 text-sm md:text-xl mt-4 text-white">
+          Morish Softech is one of the world’s top business consulting firms.
+          We help global leaders with their organization's most critical issues
+          & opportunities.
+        </p>
       </div>
-    </section>
+      <button
+        onClick={handleNextClick}
+        className="text-2xl slider-button next-button absolute right-2 transform -translate-y-1/2 translate-x-1/2 top-1/2 hover:scale-120 hover:shadow-md transition-transform duration-300"
+      >
+        {">"}
+      </button>
+    </div>
+  </div>
+</section>
+
   );
 };
 

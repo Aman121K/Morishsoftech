@@ -140,7 +140,7 @@ function ContactForm() {
                   Head Office : <strong className="text-sm font-normal text-black"> F4-1406 Amrpali leasure park, Greater Noida U.P.</strong>
                 </h2>
                 <p className="text-gray-600 mb-2">
-                  Morishsoftech Private Limited,
+                  Morish Softech Private Limited,
                   <br />
                   {/* F4-1406 Amrpali leasure park, Greater Noida U.P., MEHRAULI-GURGAON ROAD SECTOR 16, GURUGRAM, HARYANA 122007. */}
                 </p>

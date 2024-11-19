@@ -2,9 +2,9 @@ import React, { useState, useEffect, useCallback } from "react";
 
 const Testimonial = () => {
   const testimonials = [
-    "Working with Morishsoftech was an absolute pleasure. Their web application development skills helped streamline our business processes, saving us time and resources. Their commitment to delivering on time and within budget was impressive. We look forward to collaborating with them on future projects. - MK Verma, MD of Ride Poolings Technologies Pvt Ltd INDIA.",
-    "Another Working with Morishsoftech was an absolute pleasure. Their web application development skills helped streamline our business processes, saving us time and resources. Their commitment to delivering on time and within budget was impressive. We look forward to collaborating with them on future projects. - MK Verma, MD of  Ride Poolings Technologies Pvt Ltd INDIA.",
-    "Yet another Working with Morishsoftech was an absolute pleasure. Their web application development skills helped streamline our business processes, saving us time and resources. Their commitment to delivering on time and within budget was impressive. We look forward to collaborating with them on future projects. - MK Verma, MD of  Ride Poolings Technologies Pvt Ltd INDIA.",
+    "Working with Morish Softech was an absolute pleasure. Their web application development skills helped streamline our business processes, saving us time and resources. Their commitment to delivering on time and within budget was impressive. We look forward to collaborating with them on future projects. ",
+    "Another Working with Morish Softech was an absolute pleasure. Their web application development skills helped streamline our business processes, saving us time and resources. Their commitment to delivering on time and within budget was impressive. We look forward to collaborating with them on future projects. ",
+    "Yet another Working with Morish Softech was an absolute pleasure. Their web application development skills helped streamline our business processes, saving us time and resources. Their commitment to delivering on time and within budget was impressive. We look forward to collaborating with them on future projects. ",
   ];
 
   const [currentTestimonial, setCurrentTestimonial] = useState(0);

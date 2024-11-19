@@ -40,7 +40,7 @@ const Navbar = () => {
               className="w-10 md:w-20 "
               src={logo1}
               alt="Web Designing and Development Company"
-              style={{ maxWidth: "80px", width: "50px" }}
+              style={{ maxWidth: "100px", width: "100px" }}
             />
           
           
@@ -164,13 +164,13 @@ const Navbar = () => {
                     Company
                   </li>
                   <ul className="dropdown-menu relative hidden group-hover:block z-50 bg-purple-400 p-4 border rounded text-sm">
-                    <li title="Morishsoftech - A Web Development Company">
+                    <li title="Morish Softech - A Web Development Company">
                       <NavLink to="/about" onClick={closeMobileMenu}>About Us</NavLink>
                     </li>
                     <li title="Web Development Mission and Vision">
                       <NavLink to="/mission-values" onClick={closeMobileMenu}>Mission & Values</NavLink>
                     </li>
-                    <li title="Why Choose Morishsoftech">
+                    <li title="Why Choose Morish Softech">
                       <NavLink to="/choose-us" onClick={closeMobileMenu}>Why Choose Us</NavLink>
                     </li>
                   </ul>
@@ -286,13 +286,13 @@ const Navbar = () => {
                     Company
                   </NavLink>
                   <ul className="dropdown-menu fixed hidden group-hover:block z-50 bg-purple-400 p-4 border rounded">
-                    <li title="Morishsoftech - A Web Development Company">
+                    <li title="Morish Softech - A Web Development Company">
                       <NavLink to="/about">About Us</NavLink>
                     </li>
                     <li title="Web Development Mission and Vision">
                       <NavLink to="/mission-values">Mission & Values</NavLink>
                     </li>
-                    <li title="Why Choose Morishsoftech">
+                    <li title="Why Choose Morish softech">
                       <NavLink to="/choose-us">Why Choose Us</NavLink>
                     </li>
                   </ul>
