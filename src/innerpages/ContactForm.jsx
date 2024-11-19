@@ -146,7 +146,7 @@ function ContactForm() {
                 </p>
                 {/* <p className="text-gray-600 mb-2">Phone: +91 (124) 411 8979</p> */}
                 <p className="text-gray-600 mb-2">
-                  info@Morishsoftech.com
+                  support@morishsoftech.in
                 </p>
               </div>
             </div>
